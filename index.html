@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Budget Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Daily Budget Planner</h1>
+        <div class="input-group">
+            <label for="total-budget">Total Budget:</label>
+            <input type="number" id="total-budget" />
+        </div>
+        <div class="input-group">
+            <label for="num-days">Number of Days:</label>
+            <input type="number" id="num-days" />
+        </div>
+        <div class="input-group">
+            <label for="misc-charges">Miscellaneous Charges:</label>
+            <input type="number" id="misc-charges" />
+        </div>
+        <button id="calculate-budget">Calculate Daily Budget</button>
+        <h2 id="daily-budget">Daily Budget: </h2>
+        <div id="expenses-container"></div>
+        <h2 id="total-savings">Total Savings: </h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
